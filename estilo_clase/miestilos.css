@@ -1,4 +1,27 @@
 *{
+    background-color: black;
+}
+
+.fondo{
+    background-image: url("/imagenes/tresviso5.JPG");
+    background-size: cover;
+    width: 100%;
+    height: 51em;
+    opacity: 50%;
+    
+}
+
+.marca{
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+    padding-top: 1%;
+}
+
+#fotos{
+    color: white;
+}
+
+/**{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -6,7 +29,7 @@
 body{
 width: 960px;
 font-family: 'Lobster', cursive;
-/*font-family: 'Smokum', cursive;*/
+font-family: 'Smokum', cursive;
 margin: 15px;
 }
 
@@ -61,3 +84,4 @@ div{
     border-color: blueviolet blue red;
     border-radius: 15px;
 }
+*/
