@@ -1,0 +1,150 @@
+*{
+    background-color: rgb(218, 156, 115);
+}
+
+header {
+    background-color: rgb(218, 156, 115);
+}
+
+section {
+    display: flex;
+    margin: 2vw;
+    align-items: flex-start;
+    justify-content: space-between;
+    overflow: hidden;
+    place-content: flex-start flex-end;
+
+}
+
+section img{
+    width: 65vw;
+    min-width: none;
+    position: relative;
+}
+
+div > p {
+    margin-left: 2vw;
+    font-size: 1.7vw;
+    text-align: justify;
+    overflow: hidden;
+    min-width: none;
+    position:relative;
+}
+
+p > b {
+    font-size: 2vw;
+}
+
+div > h1 {
+    font-family: 'Square Peg', cursive;
+    margin: auto;
+    text-align: center;
+    font-size: 5vw;
+    animation-duration: 1s;
+    animation-name: slidein;
+}
+
+@keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+  }
+
+/*
+img {
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+}
+
+img:hover {
+    width: 300px;
+    height: 300px;
+}
+*/ 
+
+.animation:first-child{
+    width: 33.3%; 
+    height: 33.3%; 
+    margin-right: 10px;
+}
+
+.animation:nth-child(2){
+    width: 33.3%; 
+    height: 33.3%; 
+    margin-right: 10px;
+}
+
+.animation:last-child{
+    width: 33.3%; 
+    height: 33.3%;
+}
+
+.animation {
+    transition: width 2s, height 4s;
+}
+
+.animation:hover {
+    width: 35%;
+}
+
+nav {
+    display: grid;
+    align-self: flex-end;
+    align-items: flex-end;
+    background-color: rgb(202, 133, 86);
+}
+
+.navegacion {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: larger;
+    text-decoration: none;
+    position:static;
+    padding: 20px;
+    grid-column-start: 1;
+    color:white;
+    background-color: rgb(202, 133, 86);
+}
+
+.marca{
+    font-family: 'Square Peg', cursive;
+    font-size: 50px;
+    display: inline-flexbox;
+    text-align: right;
+    color: white;
+    margin: auto;
+    background-color: rgb(202, 133, 86);
+}
+
+.ubicacion {
+    width: 50vw; 
+    font-size: 2vw;
+}
+
+.ubicacion b {
+    font-size: 2.2vw;   
+}
+
+footer {
+    display: grid ;
+    
+    background-color: rgb(202, 133, 86);
+}
+
+footer div {
+    background-color: rgb(202, 133, 86);
+}
+
+box-icon { 
+    background-color: rgb(202, 133, 86);
+    color: white
+}
+
