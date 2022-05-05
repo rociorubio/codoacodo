@@ -105,7 +105,7 @@ nav {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
     text-decoration: none;
-    padding: 1vw;
+    padding: 2vw;
     color:white;
     background-color: rgb(202, 133, 86);
 }
@@ -129,17 +129,28 @@ nav {
 }
 
 footer {
-    display: grid ;
     background-color: rgb(202, 133, 86);
+    padding: 3vw;
+    text-align: center;
 }
 
-footer div {
+footer div{
     background-color: rgb(202, 133, 86);
+    padding: 1vw;
 }
 
-box-icon { 
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
     background-color: rgb(202, 133, 86);
-    color: white
+    color: white;
+}
+
+
+i { 
+    background-color: rgb(202, 133, 86);
+    color: white;
+    margin: 1vw;
 }
 
 iframe {
