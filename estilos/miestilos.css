@@ -74,13 +74,13 @@ img:hover {
 .animation:first-child{
     width: 33.3%; 
     height: 33.3%; 
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 .animation:nth-child(2){
     width: 33.3%; 
     height: 33.3%; 
-    margin-right: 10px;
+    margin-right: 1vw;
 }
 
 .animation:last-child{
@@ -108,7 +108,7 @@ nav {
     font-size: larger;
     text-decoration: none;
     position:static;
-    padding: 20px;
+    padding: 1vw;
     grid-column-start: 1;
     color:white;
     background-color: rgb(202, 133, 86);
@@ -116,7 +116,7 @@ nav {
 
 .marca{
     font-family: 'Square Peg', cursive;
-    font-size: 50px;
+    font-size: 3vw;
     display: inline-flexbox;
     text-align: right;
     color: white;
@@ -147,4 +147,3 @@ box-icon {
     background-color: rgb(202, 133, 86);
     color: white
 }
-
