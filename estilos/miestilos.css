@@ -19,7 +19,7 @@ section {
 section img{
     width: 65vw;
     min-width: none;
-    position: relative;
+    
 }
 
 div > p {
@@ -74,7 +74,7 @@ img:hover {
 .animation:first-child{
     width: 33.3%; 
     height: 33.3%; 
-    margin-right: 1
+    margin-right: 1vw
 }
 
 .animation:nth-child(2){
@@ -98,14 +98,12 @@ img:hover {
 
 nav {
     display: grid;
-    align-self: flex-end;
-    align-items: flex-end;
     background-color: rgb(202, 133, 86);
 }
 
 .navegacion {
     font-family:Arial, Helvetica, sans-serif;
-    font-size: larger;
+    font-size: 1.5vw;
     text-decoration: none;
     padding: 1vw;
     color:white;
@@ -132,7 +130,6 @@ nav {
 
 footer {
     display: grid ;
-    
     background-color: rgb(202, 133, 86);
 }
 
@@ -143,4 +140,9 @@ footer div {
 box-icon { 
     background-color: rgb(202, 133, 86);
     color: white
+}
+
+iframe {
+    width: 60vw;
+    height: 40vw;;
 }
