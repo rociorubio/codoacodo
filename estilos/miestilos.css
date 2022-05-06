@@ -3,7 +3,7 @@
 }
 
 header {
-    background-color: rgb(218, 156, 115);
+    background-color: rgb(202, 133, 86) !important;
 }
 
 section {
@@ -28,19 +28,19 @@ div > p {
     text-align: justify;
     overflow: hidden;
     min-width: none;
-    position:relative;
+    position:relative !important;
 }
 
 p > b {
-    font-size: 2vw;
+    font-size: 2vw !important;
 }
 
 div > h1 {
-    font-family: 'Square Peg', cursive;
-    margin: auto;
-    text-align: center;
-    font-size: 5vw;
-    animation-duration: 1s;
+    font-family: 'Square Peg', cursive !important;
+    margin: auto !important;
+    text-align: center !important;
+    font-size: 5vw !important;
+    animation-duration: 1s !important;
     animation-name: slidein;
 }
 
@@ -106,20 +106,20 @@ nav a:hover{
 }
 
 .navegacion {
-    font-family:Arial, Helvetica, sans-serif;
-    font-size: 1.5vw;
+    font-family:Arial, Helvetica, sans-serif !important;
+    font-size: 1.5vw !important;
     text-decoration:none !important;
-    padding: 2vw;
-    color:white;
+    padding: 2vw !important;
+    color:white !important;
     background-color: rgb(202, 133, 86) !important;
 }
 
 .marca{
-    font-family: 'Square Peg', cursive; 
-    font-size: 3vw;
-    text-align: left;
-    color: white;
-    margin: auto;
+    font-family: 'Square Peg', cursive !important; 
+    font-size: 3vw !important;
+    text-align: left !important;
+    color: white !important;
+    margin: auto !important;
     background-color: rgb(202, 133, 86) !important;
     text-decoration: none !important;
 }
