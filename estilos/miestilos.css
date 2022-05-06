@@ -1,5 +1,5 @@
 *{
-    background-color: rgb(218, 156, 115);
+    background-color: rgb(218, 156, 115) !important;
 }
 
 header {
@@ -97,30 +97,35 @@ img:hover {
 }
 
 nav {
-    display: grid;
-    background-color: rgb(202, 133, 86);
+    display: grid !important;
+    background-color: rgb(202, 133, 86) !important;
+} 
+
+nav a:hover{
+    color:black !important;
 }
 
 .navegacion {
     font-family:Arial, Helvetica, sans-serif;
     font-size: 1.5vw;
-    text-decoration: none;
+    text-decoration:none !important;
     padding: 2vw;
     color:white;
-    background-color: rgb(202, 133, 86);
+    background-color: rgb(202, 133, 86) !important;
 }
 
 .marca{
-    font-family: 'Square Peg', cursive;
+    font-family: 'Square Peg', cursive; 
     font-size: 3vw;
     text-align: left;
     color: white;
     margin: auto;
-    background-color: rgb(202, 133, 86);
+    background-color: rgb(202, 133, 86) !important;
+    text-decoration: none !important;
 }
 
 .ubicacion {
-    width: 50vw; 
+    width: 45vw; 
     font-size: 2vw;
 }
 
@@ -129,20 +134,20 @@ nav {
 }
 
 footer {
-    background-color: rgb(202, 133, 86);
+    background-color: rgb(202, 133, 86) !important;
     padding: 3vw;
     text-align: center;
 }
 
 footer div{
-    background-color: rgb(202, 133, 86);
+    background-color: rgb(202, 133, 86) !important;
     padding: 1vw;
 }
 
 footer p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
-    background-color: rgb(202, 133, 86);
+    background-color: rgb(202, 133, 86) !important;
     color: white;
 }
 
@@ -155,5 +160,12 @@ i {
 
 iframe {
     width: 60vw;
-    height: 40vw;;
+    height: 45vw;;
+}
+
+#saludos {
+    font-family: 'Square Peg', cursive;
+    font-size: 4vw;
+    font-weight: bold;
+    text-align: center;
 }
