@@ -89,7 +89,7 @@ img:hover {
 }
 
 .animation {
-    transition: width 2s, height 4s;
+    transition: width 0.5s, height 4s;
 }
 
 .animation:hover {
